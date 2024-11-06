@@ -1,1 +1,35 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: #0e7e12;
+}
+.card {
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+
+.top-suite {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 70px;
+}
+
+.bottom-suite {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 70px;
+}
+
+.number {
+  position: absolute;
+  top: 160px;
+  left: 120px;
+  font-size: 70px;
+}
